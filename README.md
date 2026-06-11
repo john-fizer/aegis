@@ -14,9 +14,36 @@ is provided.
 
 ## Screenshots
 
-Run the app (`npm run dev`) and click **Run Demo Scenario** — the dashboard,
-agent council, risk scorecard, vendor comparison, and roadmap views are all
-populated by the demo in a few seconds.
+**Dashboard**
+
+![Dashboard](docs/screenshots/dashboard.png)
+
+**Consensus decision (Overview tab)**
+
+![Overview with consensus decision](docs/screenshots/overview.png)
+
+**Agent Council — six independent assessments**
+
+![Agent Council](docs/screenshots/agent-council.png)
+
+**Risk Scorecard**
+
+![Risk Scorecard](docs/screenshots/risk-scorecard.png)
+
+**Vendor Comparison**
+
+![Vendor Comparison](docs/screenshots/vendor-comparison.png)
+
+**Implementation Roadmap**
+
+![Implementation Roadmap](docs/screenshots/roadmap.png)
+
+**New Evaluation form**
+
+![New Evaluation](docs/screenshots/new-evaluation.png)
+
+To regenerate: `npm run start`, click **Run Demo Scenario** (or `POST /api/demo`),
+then `node scripts/screenshots.mjs`.
 
 ## Demo Scenario
 

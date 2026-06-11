@@ -1,0 +1,12 @@
+{
+  "organizationName": "State Health Agency",
+  "useCaseTitle": "Benefits Call Summarization",
+  "problemStatement": "Call center agents spend significant time writing post-call notes, reducing time available for callers and creating inconsistent case records.",
+  "dataSensitivity": "High",
+  "budgetRange": "$100,000 - $250,000",
+  "timeline": "9 months",
+  "preferredCloud": "Azure",
+  "humanInLoop": false,
+  "currentSystems": "Genesys Cloud, Salesforce Service Cloud",
+  "desiredOutcome": "Automated draft summaries for every call with consistent structure and faster case resolution."
+}
